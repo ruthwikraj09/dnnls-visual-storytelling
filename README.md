@@ -1,12 +1,12 @@
 
 
 # **DNNLS Final Assessment**
+Author : Rachakatla Sai Ruthwik Raj
 
 ## **Introduction and Problem Statement**
 
 The project repository includes the final project for the **Deep Neural Networks & Learning Systems (DNNLS)** course.
 The project focuses on enhancing an existing **storytelling model** by integrating additional features and advanced learning techniques.
-
 We have built a **high-tech story prediction system** equipped with state-of-the-art AI components for multimodal understanding and generation.
 
 ---
@@ -19,8 +19,7 @@ The system integrates:
 * **Diffusion-based image generation**
 * **Contrastive learning**
 * **Curriculum training**
-
-These components collectively aim to achieve **coherent multimodal story continuation**, ensuring alignment between images, text, and semantic concepts over time.
+* These components collectively aim to achieve **coherent multimodal story continuation**, ensuring alignment between images, text, and semantic concepts over time.
 
 ---
 
@@ -44,8 +43,7 @@ These components collectively aim to achieve **coherent multimodal story continu
 ---
 
 ## **Methods**
-
-### **Overview of Techniques Used**
+Here is the overview of the methods used :
 
 * **Cross-Modal Temporal Transformer (CMTT)** integrates semantic tags with enhanced visual features to fuse image and text information across time.
 * **Latent diffusion decoder** ensures high-quality and consistent image generation.
@@ -53,7 +51,6 @@ These components collectively aim to achieve **coherent multimodal story continu
 * **Early stopping** prevents overfitting.
 * **Curriculum learning** stabilizes training.
 * Dataset split:
-
   * **80% Training**
   * **10% Validation**
   * **10% Testing**
@@ -67,22 +64,16 @@ These components collectively aim to achieve **coherent multimodal story continu
 The proposed architecture consists of:
 
 * **Enhanced Visual Encoder**
-
   * CNN with batch normalization
 * **Text Encoder**
-
   * BERT + LSTM
 * **Semantic Tag Detection**
-
   * Objects, actions, and locations
 * **Cross-Modal Temporal Transformer (CMTT)**
-
-  * Multimodal temporal feature fusion
+   * Multimodal temporal feature fusion
 * **Latent Diffusion Decoder**
-
-  * High-quality image generation
+   * High-quality image generation
 * **Multi-task Learning Objectives**
-
   * Image generation
   * Text generation
   * Tag prediction
@@ -164,7 +155,7 @@ The enhanced model demonstrates:
 * More coherent future predictions
 * Better alignment between modalities
 
-### **Key Improvements**
+### **Key Improvements that have being done**
 
 * **CMTT** enhances cross-modal temporal reasoning
 * **Diffusion decoding** produces sharper and more detailed images

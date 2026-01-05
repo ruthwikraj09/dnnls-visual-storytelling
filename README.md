@@ -62,6 +62,8 @@ These components collectively aim to achieve **coherent multimodal story continu
 
 ## **Model Architecture Overview**
 
+![Image](https://github.com/user-attachments/assets/7b2a813b-6610-4589-a7d0-d91efe09b8fe)
+
 The proposed architecture consists of:
 
 * **Enhanced Visual Encoder**
